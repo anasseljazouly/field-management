@@ -1,0 +1,76 @@
+<div class="marge">
+  <h1 class="text-center">Filiere : <span id="field"></span></h1>
+  <br />
+  <!-- <?php //echo $_SESSION["field"]; 
+         ?> -->
+
+  <form onchange="$dc.reload();" id="form1">
+    <div class="row">
+      <div class="col-md-2 col-md-offset-1">
+        <div class="form-group">
+          <label for="week">Semaine:</label>
+          <select class="form-control week" id="week" name="week"></select>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="form-group">
+          <label for="day">Jour</label>
+          <select class="form-control day" id="day" name="day">
+            <option disabled selected></option>
+            <option value="1">Lundi</option>
+            <option value="2">Mardi</option>
+            <option value="3">Mercredi</option>
+            <option value="4">Jeudi</option>
+            <option value="5">Vendredi</option>
+            <option value="6">Samedi</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="form-group">
+          <label for="year" class="year">annee</label>
+          <select class="form-control year" id="year" name="year">
+            <option disabled selected></option>
+            <option value="1A">1A</option>
+            <option value="2A">2A</option>
+            <option value="3A">3A</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="form-group">
+          <label for="semester" class="semester">Semestre</label>
+          <select class="form-control semester" id="semester" name="semester">
+            <option disabled selected></option>
+            <option value="S1">S1</option>
+            <option value="S2">S2</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="form-group">
+          <label for="periode">Periode</label>
+          <select class="form-control" id="periode" name="periode">
+            <option disabled selected></option>
+            <option value="P1">P1</option>
+            <option value="P2">P2</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <form id="form2"></form>
+
+  <div class="form-group">
+    <button
+      name="Confirm-btn"
+      onclick="$dc.confirm_edit();"
+      type="button"
+      id="login-btn"
+      class="btn btn-primary btn-block btn-lg"
+    >
+      Confirmer
+    </button>
+  </div>
+</div>

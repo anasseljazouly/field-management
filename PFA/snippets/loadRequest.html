@@ -1,0 +1,140 @@
+<div id="text">
+  <div class="form-group">
+    <h4 id="em" class="text-center"></h4>
+  </div>
+  <form action="connected.php" method="post" id="form">
+    <div id="errors"></div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="form-group">
+          <label for="B_week">Semaine (avant) :</label>
+          <input
+            type="text"
+            name="B_week"
+            id="B_week"
+            value=""
+            class="form-control form-control-lg"
+            disabled
+          />
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="form-group">
+          <label for="A_week">Semaine (apres) :</label>
+          <input
+            type="text"
+            name="A_week"
+            id="A_week"
+            value=""
+            class="form-control form-control-lg"
+            disabled
+          />
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="form-group">
+          <label for="B_day">Jour (avant) :</label>
+          <input
+            type="text"
+            value=""
+            name="B_day"
+            id="B_day"
+            class="form-control form-control-lg"
+            disabled
+          />
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="form-group">
+          <label for="A_day">Jour (apres) :</label>
+          <input
+            type="text"
+            value=""
+            name="A_day"
+            id="A_day"
+            class="form-control form-control-lg"
+            disabled
+          />
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="form-group">
+          <label for="B_time">Heure (avant) :</label>
+          <input
+            type="text"
+            value=""
+            name="B_time"
+            id="B_time"
+            class="form-control form-control-lg"
+            disabled
+          />
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="form-group">
+          <label for="A_time">Heure (apres) :</label>
+          <input
+            value=""
+            type="text"
+            name="A_time"
+            id="A_time"
+            class="form-control form-control-lg"
+            disabled
+          />
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="A_time">Annee :</label>
+          <input
+            value=""
+            type="text"
+            name="year"
+            id="year"
+            class="form-control form-control-lg"
+            disabled
+          />
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="class">Classe :</label>
+          <select class="form-control" id="class" name="class"></select>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="form-group">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-2">
+        <div class="form-group">
+          <button
+            type="button"
+            id="accept-btn"
+            onclick="$dc.acceptRequest();"
+            name="register-btn"
+            class="btn btn-primary btn-block btn-lg"
+          >
+            Accepter
+          </button>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="form-group">
+          <button
+            type="button"
+            id="refuse-btn"
+            onclick="$dc.refuseRequest();"
+            name="register-btn"
+            class="btn btn-primary btn-block btn-lg"
+          >
+            Refuser
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

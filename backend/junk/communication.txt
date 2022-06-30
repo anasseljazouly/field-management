@@ -1,0 +1,7 @@
+all the data is in the '$_SESSION'
+if you want to get infomations from the database for example the name use:
+<?php echo $_SESSION["name"]?>
+
+email : $_SESSION["name"]
+first_name :$_SESSION["name"]
+second_name :$_SESSION["name"]

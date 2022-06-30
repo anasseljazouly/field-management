@@ -1,0 +1,119 @@
+<div class="main-body">
+  <div class="row gutters-sm">
+    <div class="col-md-4 mb-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex flex-column align-items-center text-center">
+            <img
+              src="https://bootdey.com/img/Content/avatar/avatar7.png"
+              alt="Admin"
+              class="rounded-circle"
+              width="150"
+            />
+            <div class="mt-3">
+              <h4>
+                <span id="p_f_name"></span><span> &nbsp;</span
+                ><span id="p_s_name"></span>
+              </h4>
+              <p class="text-muted font-size-sm">
+                <span id="p_adresse"></span><span>&nbsp;,&nbsp;</span>
+                <span id="p_city"></span> <span>&nbsp;,&nbsp;</span>
+                <span id="p_country"> </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mt-3" id="p_biblio">
+        <h3>Bibiliographie :</h3>
+        <p id="text-bib" contenteditable="false"></p>
+        <button
+          class="btn btn-info"
+          id="btn-edit"
+          type="button"
+          onclick="$dc.edit();"
+        >
+          Modifier
+        </button>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="card mb-3">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Type</h6>
+            </div>
+            <div class="col-sm-9 text-secondary" id="p_type"></div>
+          </div>
+
+          <div class="row" id="cf">
+            <hr />
+            <div class="col-sm-3">
+              <h6 class="mb-0">Chef de filiere</h6>
+            </div>
+            <div class="col-sm-9 text-secondary" id="p_cf"></div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Sexe</h6>
+            </div>
+            <div class="col-sm-9 text-secondary" id="p_sexe"></div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Jour de naissance</h6>
+            </div>
+            <div class="col-sm-9 text-secondary" id="p_birthday"></div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Lieu de naissance</h6>
+            </div>
+            <div class="col-sm-9 text-secondary" id="p_birthplace"></div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Email</h6>
+            </div>
+            <div class="col-sm-9 text-secondary" id="p_email"></div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">CIN</h6>
+            </div>
+            <div class="col-sm-9 text-secondary" id="p_cin"></div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Numero de telephone</h6>
+            </div>
+            <div class="col-sm-9 text-secondary" id="p_phone"></div>
+          </div>
+
+          <div class="row" id="year">
+            <hr />
+            <div class="col-sm-3">
+              <h6 class="mb-0">Annee</h6>
+            </div>
+            <div class="col-sm-9 text-secondary" id="p_year"></div>
+          </div>
+
+          <div class="row" id="field">
+            <hr />
+            <div class="col-sm-3">
+              <h6 class="mb-0">Filiere</h6>
+            </div>
+            <div class="col-sm-9 text-secondary" id="p_field"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

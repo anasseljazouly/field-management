@@ -1,0 +1,105 @@
+<h3 id="chrono-filed" class="text-center"></h3>
+<form id="form-chrono">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="week">Semaine:</label>
+        <select class="form-control week" id="week" name="week"></select>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="semester" class="semester">Semestre</label>
+        <select class="form-control semester" id="semester" name="semester">
+          <option disabled selected></option>
+          <option value="S1">S1</option>
+          <option value="S2">S2</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="periode">Periode</label>
+        <select class="form-control" id="periode" name="periode">
+          <option disabled selected></option>
+          <option value="P1">P1</option>
+          <option value="P2">P2</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</form>
+<div class="form-group">
+  <button
+    type="button"
+    id="login-btn"
+    onclick="$dc.showChrono();"
+    name="register-btn"
+    class="btn btn-primary btn-block btn-lg"
+  >
+    Afficher
+  </button>
+</div>
+<div id="first-row" class="table-responsive">
+  <table class="table table-bordered text-center">
+    <thead>
+      <tr class="bg-light-gray">
+        <th class="text-uppercase">Temps</th>
+        <th class="text-uppercase">Lundi</th>
+        <th class="text-uppercase">Mardi</th>
+        <th class="text-uppercase">Mercredi</th>
+        <th class="text-uppercase">Jeudi</th>
+        <th class="text-uppercase">Vendredi</th>
+        <th class="text-uppercase">Samedi</th>
+      </tr>
+    </thead>
+    <tbody id="tabletime"></tbody>
+  </table>
+</div>
+
+<div class="form-group">
+  <button
+    type="button"
+    id="download-btn"
+    onclick="$dc.image();"
+    name="register-btn"
+    class="btn btn-primary btn-block btn-lg Telecharger"
+  >
+    Telecharger
+  </button>
+</div>
+
+<!-- <tr>
+                                <td class="align-middle">09:00am - 9:30am</td>
+                                <td>
+                                    <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Dance</span>
+                                    <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Yoga</span>
+                                    <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                    <div class="font-size13 text-light-gray">Marta Healy</div>
+                                </td>
+
+                                <td>
+                                    <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Music</span>
+                                    <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Dance</span>
+                                    <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Art</span>
+                                    <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                    <div class="font-size13 text-light-gray">Kate Alley</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">English</span>
+                                    <div class="margin-10px-top font-size14">9:00-10:00</div>
+                                    <div class="font-size13 text-light-gray">James Smith</div>
+                                </td>
+                            </tr> -->

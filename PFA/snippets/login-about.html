@@ -1,0 +1,62 @@
+<div id="password-message"></div>
+<div class="row" id="row-login">
+  <div class="col-md-6 col-sm-6 col-xs-12">
+    <form id="login" action="home.php" method="post">
+      <h3 class="text-center">Se connecter</h3>
+
+      <div id="errors"></div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          value=""
+          class="form-control form-control-lg"
+        />
+      </div>
+      <div class="form-group">
+        <label for="password">Mot de passe</label>
+        <div class="text-container">
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="form-control rounded-right"
+          />
+          <div
+            onclick="$dc.show();"
+            id="show-icon"
+            class="glyphicon glyphicon-eye-close"
+          ></div>
+        </div>
+      </div>
+      <input type="hidden" id="type" name="type" value="" />
+      <div class="form-group">
+        <button
+          type="button"
+          onclick="$dc.login();"
+          name="login-btn"
+          id="login-btn"
+          class="btn btn-primary btn-block btn-lg"
+        >
+          Se connecter
+        </button>
+      </div>
+      <p class="text-center">
+        <a
+          style="color: #ffffff"
+          href="#mot_de_passe_oublié"
+          onclick="$dc.forgotPassword();"
+        >
+          Mot de passe oublié ?</a
+        >
+      </p>
+    </form>
+  </div>
+  <div class="col-md-6 col-sm-6 col-xs-12" id="about">
+    <a href="#infos" onclick="$dc.loadInfos();">
+      <div id="specials-tile"><span>INFOS</span></div>
+    </a>
+  </div>
+</div>
