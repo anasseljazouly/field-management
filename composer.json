@@ -2,12 +2,12 @@
     "scripts": {
         "post-install-cmd": [
             "php artisan clear-compiled",
-            "chmod -R 777 ./"
+            "chmod -R 777 public/"
         ]
     },
     "extra": {
         "heroku": {
-            "document-root": "./",
+            "document_root": "public",
             "index-document": "home.php",
             "php-config": [
                 "short_open_tag=on",
