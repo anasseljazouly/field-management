@@ -7,7 +7,7 @@
     },
     "extra": {
         "heroku": {
-            "document_root": "public",
+            "document_root": "public/",
             "index-document": "home.php",
             "php-config": [
                 "short_open_tag=on",
