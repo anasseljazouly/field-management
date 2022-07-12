@@ -32,7 +32,7 @@
 
         <div id="id-name"></div>
 
-        <a href="home.php" >
+        <a href="index.php" >
         <button type="button" id="deconnect-btn" onclick="$dc.logout();" class="btn btn-secondary btn-sm btn-block">
           Se deconnecter
         </button>

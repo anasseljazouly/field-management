@@ -184,7 +184,7 @@ if ($type=="logout") {
    session_destroy();
    unset($_SESSION["message"]);
    unset($_SESSION["email"]);
-   echo('home.php');
+   echo('index.php');
 }
 
 /*profile*/

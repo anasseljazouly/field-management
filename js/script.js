@@ -296,7 +296,7 @@ $(function () {
       async: false,
       success: function (response) {
         if (response == "connected.php") {
-          window.location = "../home.php";
+          window.location = "../index.php";
         } else {
           $("#errors-reset-password").html(response);
         }
@@ -575,8 +575,8 @@ $(function () {
       url: "snippets/controllers/authController.php",
       data: { type: "logout" },
       success: function (response) {
-        if (response == "home.php") {
-          window.location = "home.php";
+        if (response == "index.php") {
+          window.location = "index.php";
         }
       },
       error: function (response) {
