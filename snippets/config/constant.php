@@ -5,8 +5,8 @@ define('EMAIL','PFAsujet8@gmail.com');
 
 define('PASSWORD','C4y9FX!Bgzyn!aN');
 
-$host =  'localhost';
-   $user = 'root';
-   $password = '';
-   $dbname = 'test2';
+$host =  'www.db4free.net';
+   $user = 'anassel1';
+   $password = 'maneteam1.';
+   $dbname = 'fieldmanagement';
    $charset="utf8mb4";
