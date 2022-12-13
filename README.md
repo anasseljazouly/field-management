@@ -1,14 +1,1 @@
-# field-management
-
-This an end project year at ENSIAS .
-The purpose of this app is the management of fields at ENSIAS.
-
-Check the app at https://field-management.herokuapp.com/ .
-
-to test the app there is 3 types of users :
-admin : anass.eljazouly@gmail.com mdp: 12345
-professor : ( can be a chef of field or not ) cf2@gmail.com mdp:12345
-student : ...
-you can connect as admin and create new custom users. PLEASE do not delete the admin or modify his profil !!!! 
-
-For any further questions you can contact me in anass.eljazouly@gmail.com
+<div class="request-:r0:-6 markdown prose dark:prose-invert break-words dark"><h1>Field Management App</h1><p>Welcome to the Field Management app! This app was developed as an end-of-year project at ENSIAS, and its purpose is to help manage fields at ENSIAS.</p><p>You can check out the app in action at <a href="https://field-management.herokuapp.com/" target="_new">https://field-management.herokuapp.com/</a>.</p><h2>How to use the app</h2><p>To test out the app, there are 3 types of users you can use:</p><ul><li>Admin: <a href="mailto:anass.eljazouly@gmail.com" target="_new">anass.eljazouly@gmail.com</a>, password: 12345</li><li>Professor: <a href="mailto:cf2@gmail.com" target="_new">cf2@gmail.com</a>, password: 12345</li><li>Student</li></ul><p>You can connect as admin and create new custom users.</p><p>Please do not delete the admin or modify their profile.</p><p>If you have any further questions, you can contact the developer at <a href="mailto:anass.eljazouly@gmail.com" target="_new">anass.eljazouly@gmail.com</a>.</p><h2>Features</h2><p>The Field Management app allows users to:</p><ul><li>View and manage fields</li><li>Create and manage classrooms reservations</li><li>View and manage field's schedule</li><li>Send a demand to change a specific seance's date</li></ul><h2>Technology stack</h2><p>The Field Management app is built using the following technologies:</p><ul><li>PHP</li><li>MySQL</li><li>PhpMyAdmin</li></ul><h2>Contributing</h2><p>If you would like to contribute to the development of the Field Management app, please contact the developer at <a href="mailto:anass.eljazouly@gmail.com" target="_new">anass.eljazouly@gmail.com</a>.</p></div>
